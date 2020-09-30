@@ -17,9 +17,6 @@ app.use(bodyParser.json())
 
 app.use(require('./routes/usuario'));
 
-//cafeUser
-//oduXBFaLns0i4FKQ
-//mongodb+srv://cafeUser:oduXBFaLns0i4FKQ@cluster0.cnjz6.mongodb.net/cafe?retryWrites=true&w=majority
 
 mongoose.connect(process.env.urlDB, {
         useNewUrlParser: true,
